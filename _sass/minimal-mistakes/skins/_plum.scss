@@ -1,0 +1,80 @@
+/* ==========================================================================
+   Plum skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #ffffff !default;
+$text-color: rgb(7, 7, 7) !default;
+$primary-color: #FF6C02 !default;
+
+$border-color: mix(#fff, $background-color, 20%) !default;
+$code-background-color:rgba(240, 240, 240, 0.5);
+$code-background-color-dark: rgba(185, 185, 185, 0.25) !default;
+
+$mark-highlight-color: rgba($primary-color, 0.15) !default;
+$block-quote-background-color: rgba($primary-color, 0.1) !default;
+$form-background-color: rgba(255, 255, 255, 0.527) !default;
+$footer-background-color: mix(#000, $background-color, 3%) !default;
+$link-color: $primary-color !default;
+
+$link-color-hover: mix($primary-color, $background-color, 70%) !default;
+$link-color-visited: mix($link-color, rgb(3, 3, 3), 98%) !default;
+
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: mix(#000, $text-color, 70%) !default;
+$navicon-link-color-hover: mix(#000, $background-color, 80%) !default;
+
+$active-color: mix($primary-color, $background-color, 5%) !default;
+
+/* YIQ color contrast */
+$yiq-contrasted-dark-default: $text-color !default;
+$yiq-contrasted-light-default: #fff !default;
+$yiq-contrasted-threshold: 175 !default;
+$yiq-debug: false !default;
+
+/* plum syntax highlighting (base16) */
+$base00: #ffffff !default;
+$base01: #e0e0e0 !default;
+$base02: #d0d0d0 !default;
+$base03: #b0b0b0 !default;
+$base04: #000000 !default;
+$base05: #101010 !default;
+$base06: #151515 !default;
+$base07: #202020 !default;
+$base08: #ff0086 !default;
+$base09: #fd8900 !default;
+$base0a: #aba800 !default;
+$base0b: #00c918 !default;
+$base0c: #1faaaa !default;
+$base0d: #3777e6 !default;
+$base0e: #ad00a1 !default;
+$base0f: #cc6633 !default;
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa  {
+  color: inherit;
+}
+
+.page__content {
+  a,
+  a:visited {
+    color: inherit;
+  }
+}
+
+/* next/previous buttons */
+.pagination--pager {
+  color: $text-color;
+  background-color: rgba($primary-color, 0.8);
+  border-color: transparent;
+
+  &:visited {
+    color: $text-color;
+  }
+}
+
+.ais-search-box .ais-search-box--input {
+  background-color: $form-background-color;
+}
