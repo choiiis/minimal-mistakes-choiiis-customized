@@ -130,6 +130,38 @@ categories:
     url: /categories/categories4/
 ```
 
+2022.09.24 Update : 하위 카테고리 포함 메뉴 (categories-ver2 branch)  
+ver2.0 카테고리 형태 문의가 있어서 categories-ver2 브랜치에 업데이트 했습니다.  
+예시는 페이지 하단 '개발 기록' 부분에서 확인하실 수 있어요!
+
+참고) `_data/navigation.yml`만 아래와 같이 변경해주셔도 됩니다.
+
+```yml
+categories:
+  - title: "Title1"
+    children:
+      - title: "Categories1"
+        url: /categories/categories1/
+      - title: "Categories2"
+        url: /categories/categories2/
+      - title: "Categories3"
+        url: /categories/categories3/
+      - title: "Categories4"
+        url: /categories/categories4/
+
+  - title: "Title2"
+    children:
+      - title: "Categories5"
+        url: /categories/categories5/
+      - title: "Categories6"
+        url: /categories/categories6/
+
+  - title: "Title3"
+    children:
+      - title: "Categories7"
+        url: /categories/categories7/
+```
+
 ### ▪ 포스트 작성
 
 1. `_posts/YYYY-MM-DD-post-name-here.md` 파일 생성
