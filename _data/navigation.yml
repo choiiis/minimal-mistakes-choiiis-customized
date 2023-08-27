@@ -1,13 +1,13 @@
 # main links
 main:
   - title: "Home"
-    url: https://choiiis.github.io/
+    url: https://onejae.github.io/
 
   - title: "About"
     url: /about/
 
   - title: "GitHub"
-    url: https://github.com/choiiis
+    url: https://github.com/onejae
 
   # - title: "Projects"
   #   url: /projects/
