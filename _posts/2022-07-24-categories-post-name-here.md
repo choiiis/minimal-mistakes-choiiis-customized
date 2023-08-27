@@ -1,13 +1,13 @@
 ---
 title: "블로그 시작"
-# excerpt: "본문의 주요 내용을 여기에 입력하세요"
+excerpt: "시작 소감"
 
 categories:
   - Notes
 tags:
-  - [tag1, tag2]
+  - [시작]
 
-permalink: /categories1/post-name-here/
+permalink: /categories/notes/1
 
 toc: true
 toc_sticky: true
