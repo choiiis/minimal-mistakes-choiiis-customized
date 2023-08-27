@@ -20,7 +20,7 @@ main:
 categories:
   - title: "Notes"
     url: /categories/notes/
-  - title: "Architecture"
+  - title: "Architecture & Patterns"
     url: /categories/architecture/
   - title: "Portfolio"
     url: /categories/portfolio/
