@@ -1,9 +1,9 @@
 ---
-title: "Categories2"
+title: "Research"
 layout: category
-permalink: /categories/categories2/
+permalink: /categories/research/
 author_profile: true
-taxonomy: Categories2
+taxonomy: Research
 sidebar:
   nav: "categories"
 ---

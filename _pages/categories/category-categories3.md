@@ -1,9 +1,9 @@
 ---
-title: "Categories3"
+title: "Portfolio"
 layout: category
-permalink: /categories/categories3/
+permalink: /categories/portfolio/
 author_profile: true
-taxonomy: Categories3
+taxonomy: Portfolio
 sidebar:
   nav: "categories"
 ---
