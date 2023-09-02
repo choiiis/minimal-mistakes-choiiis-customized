@@ -14,7 +14,7 @@ tags:
         .gallery {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: space-around;
         }
 
         .gallery-item {
@@ -46,6 +46,17 @@ tags:
             text-decoration: none;
         }
 
+        .gallery-item .title {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 5px 10px;
+        }
+
+
         .gallery-item:hover .hover-button {
             opacity: 1;
         }
@@ -57,17 +68,18 @@ tags:
         <div class="gallery-item">
             <img src='/assets/images/demo/jukebox.png' >
             <a href="https://onejae.github.io/demo/jukebox" class="hover-button" target='_blank'>Open</a>
-        </div>
-        <!-- <div class="gallery-item">
-            <img src="image2.jpg" alt="Image 2">
-            <a href="link2.html" class="hover-button">View</a>
+            <div class="title">Jukebox(Three.js + React.js)</div>
         </div>
         <div class="gallery-item">
-            <img src="image3.jpg" alt="Image 3">
-            <a href="link3.html" class="hover-button">View</a>
+            <img src='/assets/images/demo/keymetronome.png' >
+            <a href="https://yesjamstudio.com/" class="hover-button" target='_blank'>Open</a>
+            <div class="title">Metronome(React Native)</div>
+        </div>
+        <!-- <div class="gallery-item">
+            <img src='/assets/images/demo/jukebox.png' >
+            <a href="https://onejae.github.io/demo/jukebox" class="hover-button" target='_blank'>Open</a>
+            <div class="title">Game Streaming(k8s, C++)</div>
         </div> -->
-        <!-- Add more gallery items as needed -->
     </div>
-
 </body>
 </html>
