@@ -1,6 +1,6 @@
 ---
-title: "Live demo"
-permalink: /livedemo/
+title: "Showcase"
+permalink: /showcase/
 comment: jfiewofjaiweofjawoeifjawieofj
 layout: gallery
 
