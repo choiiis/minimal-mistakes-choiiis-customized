@@ -71,15 +71,15 @@ tags:
             <div class="title">Jukebox(Three.js + React.js)</div>
         </div>
         <div class="gallery-item">
+            <img src='/assets/images/demo/oraksil.png' >
+            <a href="https://github.com/onejae/oraksil" class="hover-button" target='_blank'>Open</a>
+            <div class="title">Game Streaming(k8s, C++, Go)</div>
+        </div> 
+        <div class="gallery-item">
             <img src='/assets/images/demo/keymetronome.png' >
             <a href="https://yesjamstudio.com/" class="hover-button" target='_blank'>Open</a>
             <div class="title">Metronome(React Native)</div>
         </div>
-        <!-- <div class="gallery-item">
-            <img src='/assets/images/demo/jukebox.png' >
-            <a href="https://onejae.github.io/demo/jukebox" class="hover-button" target='_blank'>Open</a>
-            <div class="title">Game Streaming(k8s, C++)</div>
-        </div> -->
-    </div>
+      </div>
 </body>
 </html>
