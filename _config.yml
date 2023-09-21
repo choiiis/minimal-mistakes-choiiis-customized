@@ -19,14 +19,14 @@ minimal_mistakes_skin: "plum" # "default" "air", "aqua", ...
 
 # Site Settings
 locale: "ko-KR" #"en-US"
-title: "Blog Name Here" # 상단 헤더에 보이는 블로그 명
+title: "test blog" # 상단 헤더에 보이는 블로그 명
 title_separator: "&#124;"
 subtitle: # site tagline that appears below site title in masthead
-name: "your name here" # 블로그 닉네임 설정
+name: "dailybear" # 블로그 닉네임 설정
 description: "this is my blog!" # 블로그 설명
-url: "https://github-account.github.io" # 블로그 URL
+url: "https://dailybear.github.io" # 블로그 URL
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "github-account/dailybear.github.io" # GitHub Repo 이름
+repository: "https://github.com/dailybear/dailybear" # GitHub Repo 이름
 teaser: #
 
 # logo                     : # 블로그명 앞에 로고 추가하고 싶을 경우 사용
@@ -98,16 +98,16 @@ analytics:
 
 # Site Author
 author:
-  name: "your name here" # 블로그 닉네임
+  name: "블로그 테스트" # 블로그 닉네임
   avatar: "/assets/images/meee.png" # 블로그 프로필 사진
-  #   bio              : "hi all!"
+     bio              : "뭐가 문젠데 대체"
   # location         : "Seoul, Korea"
   # email            : "youremailhere@xxxxxx.com"
 
   links: # 사이트 링크
-#     - label: "Email"
-#       icon: "fas fa-fw fa-envelope-square"
-#       # url: "mailto:your.name@email.com"
+     - label: "Email"
+       icon: "fas fa-fw fa-envelope-square"
+       # url: "mailto:cho_c0@naver.com"
 #     - label: "Website"
 #       icon: "fas fa-fw fa-link"
 #       # url: "https://your-website.com"
@@ -117,9 +117,9 @@ author:
 #     - label: "Facebook"
 #       icon: "fab fa-fw fa-facebook-square"
 #       # url: "https://facebook.com/"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/"
+     - label: "GitHub"
+       icon: "fab fa-fw fa-github"
+       url: "https://github.com/dailybear/"
 #     - label: "Instagram"
 #       icon: "fab fa-fw fa-instagram"
 #       url: "https://www.instagram.com/"
@@ -135,7 +135,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+       url: "https://github.com/dailybear/dailybear"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
