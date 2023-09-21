@@ -98,9 +98,9 @@ analytics:
 
 # Site Author
 author:
-  name: "블로그 테스트" # 블로그 닉네임
+  name: "dailybear" # 블로그 닉네임
   avatar: "/assets/images/meee.png" # 블로그 프로필 사진
-     bio              : "뭐가 문젠데 대체"
+  bio              : "뭐가 문젠데 대체"
   # location         : "Seoul, Korea"
   # email            : "youremailhere@xxxxxx.com"
 
