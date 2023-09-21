@@ -1,3 +1,21 @@
+---
+title: "[test] 링크드리스트"
+excerpt: "업로드테스트"
+
+categories:
+  - Categories1
+tags:
+  - [tag1, tag2]
+
+permalink: /categories2/linkedlist/
+
+toc: true
+toc_sticky: true
+
+date: 2023-09-19
+last_modified_at: 2023-09-19
+---
+
 # 자료구조_링크드리스트
 
 220707
