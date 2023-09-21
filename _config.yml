@@ -106,8 +106,8 @@ author:
 
   links: # 사이트 링크
      - label: "Email"
-       icon: "fas fa-fw fa-envelope-square"
-       # url: "mailto:cho_c0@naver.com"
+        icon: "fas fa-fw fa-envelope-square"
+        url: "mailto:cho_c0@naver.com"
 #     - label: "Website"
 #       icon: "fas fa-fw fa-link"
 #       # url: "https://your-website.com"
