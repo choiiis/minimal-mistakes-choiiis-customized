@@ -1,9 +1,9 @@
 ---
-title: "Categories1"
+title: "UdemyxSniperfactory"
 layout: category
-permalink: /categories/categories1/
+permalink: /categories/UdemyxSniperfactory/
 author_profile: true
-taxonomy: Categories1
+taxonomy: UdemyxSniperfactory
 sidebar:
   nav: "categories"
 ---

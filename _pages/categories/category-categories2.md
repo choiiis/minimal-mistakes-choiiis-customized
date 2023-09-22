@@ -1,9 +1,9 @@
 ---
-title: "Categories2"
+title: "TIL"
 layout: category
-permalink: /categories/categories2/
+permalink: /categories/til/
 author_profile: true
-taxonomy: Categories2
+taxonomy: TIL
 sidebar:
   nav: "categories"
 ---

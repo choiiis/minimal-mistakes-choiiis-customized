@@ -1,9 +1,9 @@
 ---
-title: "Categories3"
+title: "Coding Test"
 layout: category
-permalink: /categories/categories3/
+permalink: /categories/codingTest/
 author_profile: true
-taxonomy: Categories3
+taxonomy: CodingTest
 sidebar:
   nav: "categories"
 ---

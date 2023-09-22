@@ -99,13 +99,13 @@ analytics:
 # Site Author
 author:
   name: "dailybear" # 블로그 닉네임
-  avatar: "/assets/images/meee.png" # 블로그 프로필 사진
+  avatar: "/assets/images/bear.png" # 블로그 프로필 사진
   bio              : "뭐가 문젠데 대체"
   # location         : "Seoul, Korea"
   # email            : "youremailhere@xxxxxx.com"
 
   links: # 사이트 링크
-     - label: "Email"
+     -  label: "Email"
         icon: "fas fa-fw fa-envelope-square"
         url: "mailto:cho_c0@naver.com"
 #     - label: "Website"
@@ -135,7 +135,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/dailybear/dailybear"
+      url: "https://github.com/dailybear/dailybear"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:

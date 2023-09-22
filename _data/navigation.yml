@@ -18,11 +18,13 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "Categories1"
-    url: /categories/categories1/
-  - title: "Categories2"
-    url: /categories/categories2/
-  - title: "Categories3"
-    url: /categories/categories3/
-  - title: "Categories4"
-    url: /categories/categories4/
+  - title: "TIL"
+    url: /categories/TIL/
+  - title: "UdemyxSniperfactory"
+    url: /categories/udemyxSniperfactory/
+  - title: "Study"
+    Children:
+      - title: "CodingTest"
+        url: /categories/codingTest/
+      - title: "Algorithm"
+        url: /categories/algorithm
