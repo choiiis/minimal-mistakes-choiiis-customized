@@ -94,12 +94,12 @@ analytics:
   provider: "google-gtag"
   # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id: "your tracking id here"
+    tracking_id: "G-G3Q2C79H38"
     anonymize_ip: # true, false (default)
 
 # Site Author
 author:
-  name: "your name here" # 블로그 닉네임
+  name: "heon" # 블로그 닉네임
   avatar: "/assets/images/meee.png" # 블로그 프로필 사진
   #   bio              : "hi all!"
   # location         : "Seoul, Korea"
