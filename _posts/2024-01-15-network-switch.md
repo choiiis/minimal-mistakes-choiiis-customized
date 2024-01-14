@@ -66,9 +66,11 @@ published: true
 ### 어드레스 러닝
 * 동작 방식 : MAC 주소 테이블을 만들고 유지한다.
 * 동작 조건 : 패킷이 특정 포트에 들어오면 해당 패킷의 출발지 MAC 주소와 포트번호를 MAC 주소 테이블에 기록
+* 브로드캐스트나 멀티캐스트에 대한 MAC 주소를 학습할 수 없다! (왜?)
+* 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2MTY5NzQ5LC05ODg1OTcxODldfQ==
+eyJoaXN0b3J5IjpbMTkyNjMxOTk2OSwtOTg4NTk3MTg5XX0=
 -->
