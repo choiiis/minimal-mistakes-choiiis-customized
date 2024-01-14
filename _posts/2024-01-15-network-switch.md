@@ -35,8 +35,13 @@ published: true
 
 * 스위치의 필요성
 	* 스위치가 없다면
-	* 
+		* 패킷을 전송할 때 서로 경합해 그로 인한 네트워크 성능 저하
+	* 스위치를 통해
+		* 패킷을 동시에 여러 장비가 서로 간섭없이 통신
+		* 통신 효율성이 향상
+* 스위치의 역할 
+	* 장비의 위
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MDM0OTgyNV19
+eyJoaXN0b3J5IjpbLTQwMzEyNTkwM119
 -->
