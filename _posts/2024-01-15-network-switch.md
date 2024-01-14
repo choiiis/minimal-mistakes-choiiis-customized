@@ -40,8 +40,9 @@ published: true
 		* 패킷을 동시에 여러 장비가 서로 간섭없이 통신
 		* 통신 효율성이 향상
 * 스위치의 역할 
-	* 장비의 위
+	* 장비의 위치를 파악하고 정확한 위치로 패킷을 전송
+	* => 정확한 위치는 `MAC 주소 테이블`을 통해 알 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzEyNTkwM119
+eyJoaXN0b3J5IjpbLTExNjcyNzg1MjldfQ==
 -->
