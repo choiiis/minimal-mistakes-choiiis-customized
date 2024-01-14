@@ -63,8 +63,12 @@ published: true
 	* 스위치에 잘못된 MAC 주소를 학습시킴
 	* MAC 테이블을 꽉 차게해 플러딩을 유도
 
+### 어드레스 러닝
+* 동작 방식 : MAC 주소 테이블을 만들고 유지한다.
+* 동작 조건 : 패킷이 특정 포트에 들어오면 해당 패
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTI2MjQ1OCwtOTg4NTk3MTg5XX0=
+eyJoaXN0b3J5IjpbNTIzMzgwODA5LC05ODg1OTcxODldfQ==
 -->
