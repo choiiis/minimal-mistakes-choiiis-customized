@@ -58,7 +58,7 @@ published: true
 ### 플러딩 (Flooding)
 * 동작 방식 : 전체 포트로 패킷을 전달한다.
 * 동작 조건 : 
-	* MAC 주소 테이블에 도착지 MAC 주소가 없는 경우
+	* MAC 주소 테이블에 일치하는 도착지 MAC 주소 정보가 없는 경우
 	* 브로드캐스트, 멀티캐스트, 언노운 유니캐스트인 경우
 * 플러딩 공격 기법
 	* 스위치에 잘못된 MAC 주소를 학습시킴
@@ -74,11 +74,11 @@ published: true
 ### 포워딩/필터링
 * 동작 방식 : 특정 포트로 패킷을 전달
 * 동작 조건 : 
-* MAC 주소 테이블에 일치하는 정보가 있으면 
+	* MAC 주소 테이블에 일치하는 도착지 MAC 주소 정보가 있는 경우
 	* 유니캐스트인 경우
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDkyNTg5NSwtOTg4NTk3MTg5XX0=
+eyJoaXN0b3J5IjpbLTExMjYyNDU1ODEsLTk4ODU5NzE4OV19
 -->
