@@ -22,6 +22,7 @@ published: true
 > **스위치의 동작**
 > - 네트워크 중간에서 패킷을 받아, 필요한 곳에만 보내준다. (네트워크의 통신을 중재)
 > - 아무 설정을 하지 않고 연결만 해도 MAC 주소를 기반으로 패킷을 전달한다.
+> 
 > **추가 기능**
 > - VLAN 기능 : 논리적으로 네트워크를 분리
 > - STP 기능 (스패닝 트리 프로토콜) : 네트워크의 루프 방지
@@ -77,6 +78,6 @@ published: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTM3OTQ0MywtMTEyNjI0NTU4MSwtOT
-g4NTk3MTg5XX0=
+eyJoaXN0b3J5IjpbLTE0MjE1ODQ2NzksLTExMjYyNDU1ODEsLT
+k4ODU5NzE4OV19
 -->
