@@ -44,8 +44,16 @@ published: true
 * 스위치의 역할 
 	* 장비의 위치를 파악하고 정확한 위치로 패킷을 전송
 	* => 정확한 위치는 `MAC 주소 테이블`을 통해 알 수 있다.
-	* => MAC 주소 테이블에는 MAC 주소와 포트 위치가 매핑되어 있다.
+
+* MAC 주소 테이블
+	* MAC 주소와 포트 위치가 매핑되어 있다.
+|MAC 주소|포트  |
+|--|--|
+| 1111:2222:3333 |Eth1  |
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4ODU5NzE4OV19
+eyJoaXN0b3J5IjpbLTExMDY3MTI5NSwtOTg4NTk3MTg5XX0=
 -->
