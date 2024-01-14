@@ -31,6 +31,8 @@ published: true
 - VLAN 기능 : 논리적으로 네트워크를 분리
 - STP 기능 (스패닝 트리 프로토콜) : 네트워크의 루프 방지
 
+
+
 ## 스위치의 동작
 
 * 스위치의 필요성
@@ -42,7 +44,8 @@ published: true
 * 스위치의 역할 
 	* 장비의 위치를 파악하고 정확한 위치로 패킷을 전송
 	* => 정확한 위치는 `MAC 주소 테이블`을 통해 알 수 있다.
+	* => MAC 주소 테이블에는 MAC 주소와 포트 위치가 매핑되어 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjcyNzg1MjldfQ==
+eyJoaXN0b3J5IjpbLTk4ODU5NzE4OV19
 -->
