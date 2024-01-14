@@ -69,10 +69,11 @@ published: true
 
 
 ### 포워딩/필터링
-* 동
+* 동작 방식 : 자신이 가진 MAC 테이블과 비교해 일치하는 정보가 있으면 해당 포트로 패킷을 전달
+* 동작 조건 : 유니캐스트인 경우
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIxNjc4ODAsLTk4ODU5NzE4OV19
+eyJoaXN0b3J5IjpbLTE0MzIxMTc5NDgsLTk4ODU5NzE4OV19
 -->
