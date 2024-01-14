@@ -51,9 +51,12 @@ published: true
 |--|--|
 | 1111:2222:3333 |Eth1  |
 
+* 스위치의 동작
+	* 테이블에 없는 주소를 가진 패킷은 전체 포트로 전송된다.
+	* 테이블에 있는 주소를 가진 패킷은 해당 포트로만 전송된다.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDY3MTI5NSwtOTg4NTk3MTg5XX0=
+eyJoaXN0b3J5IjpbLTE1NDA1MjMzNTQsLTk4ODU5NzE4OV19
 -->
