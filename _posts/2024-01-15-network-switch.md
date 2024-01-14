@@ -59,11 +59,12 @@ published: true
 ### 플러딩 (Flooding)
 * 동작 방식 : 전체 포트로 패킷을 전달한다.
 * 동작 조건 : MAC 주소 테이블에 도착지 MAC 주소가 없는 경우
-* 주의
-	* 
+* 플러딩 공격 기법
+	* 스위치에 잘못된 MAC 주소를 학습시킴
+	* MAC 테이블을 꽉 차게해 플러딩을 유도
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwNzAxMzY3LC05ODg1OTcxODldfQ==
+eyJoaXN0b3J5IjpbMTUwOTI2MjQ1OCwtOTg4NTk3MTg5XX0=
 -->
