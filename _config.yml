@@ -16,7 +16,9 @@
 # plum skin 활용하여 색상 설정함. 변경하려면 _sass/minimal-mistakes/skins/_plum.scss 에서 변경하거나
 # 해당 디렉토리 내의 다른 테마로 변경 가능 (minimal-mistakes 기본 제공 테마)
 minimal_mistakes_skin: "plum" # "default" "air", "aqua", ...
-
+dark: true
+after_footer_scripts:
+  - /assets/js/custom/theme-toggle.js
 # Site Settings
 locale: "ko-KR" #"en-US"
 title: "Heon-Log" # 상단 헤더에 보이는 블로그 명
