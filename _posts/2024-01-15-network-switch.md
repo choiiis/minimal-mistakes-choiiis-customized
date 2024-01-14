@@ -54,12 +54,13 @@ published: true
 * 스위치의 동작
 	* 테이블에 없는 주소를 가진 패킷은 전체 포트로 전송된다.
 	* 테이블에 있는 주소를 가진 패킷은 해당 포트로만 전송된다.
+	* 동작 방식을 `플러딩, 어드레스 러닝, 포워팅/필터링`으로 나눌 수 있다.
 
 ### 플러딩
-
+* 전체 포트로 패킷을 전달한다.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTkwOTQyNjIsLTk4ODU5NzE4OV19
+eyJoaXN0b3J5IjpbMTU1MjE1NTQyMiwtOTg4NTk3MTg5XX0=
 -->
