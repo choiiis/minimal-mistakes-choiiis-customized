@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 
-Sitemap: https://github-account.github.io/sitemap.xml
+Sitemap: https://heon-kim.github.io/sitemap.xml
