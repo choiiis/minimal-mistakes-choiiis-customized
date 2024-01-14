@@ -56,11 +56,12 @@ published: true
 	* 테이블에 있는 주소를 가진 패킷은 해당 포트로만 전송된다.
 	* 동작 방식을 `플러딩, 어드레스 러닝, 포워팅/필터링`으로 나눌 수 있다.
 
-### 플러딩
-* 전체 포트로 패킷을 전달한다.
+### 플러딩 (Flooding)
+* 동작 방식 : 전체 포트로 패킷을 전달한다.
+* 동작 조건 : 자신이 갖고 갖고 있는 MAC 주소 테이블에 도착지 MAC 주소가 없을 때
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MjE1NTQyMiwtOTg4NTk3MTg5XX0=
+eyJoaXN0b3J5IjpbNzY1MjMyMjE2LC05ODg1OTcxODldfQ==
 -->
