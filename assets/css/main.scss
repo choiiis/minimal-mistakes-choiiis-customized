@@ -107,6 +107,12 @@ p {
   color: var(--text-color);
 }
 
+.highlighter-rouge {
+  background: var(--highlight-color);
+  border-bottom: 1px solid var(--primary-color);
+  color: var(--text-color);
+}
+
 .page__footer {
   background: var(--bg-color);
   color: var(--text-color);

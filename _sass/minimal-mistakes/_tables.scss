@@ -17,19 +17,19 @@ table {
 }
 
 thead {
-  background-color: $border-color;
-  border-bottom: 2px solid mix(#000, $border-color, 25%);
+  background: var(--highlight-color);
 }
 
 th {
   padding: 0.5em;
   font-weight: bold;
   text-align: left;
+  border: 1px solid var(--primary-color);
 }
 
 td {
   padding: 0.5em;
-  border-bottom: 1px solid mix(#000, $border-color, 25%);
+  border: 1px solid var(--primary-color);
 }
 
 tr,
