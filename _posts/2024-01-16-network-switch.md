@@ -1,6 +1,6 @@
 ---
-title: 스위치의 추가 기능
-excerpt: VLAN, STP
+title: 스위치의 추가 기능 - VLAN
+excerpt: VLAN
 categories:
   - network
 tags:
