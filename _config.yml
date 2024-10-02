@@ -60,7 +60,7 @@ search: true # true, false (default)
 search_full_content: true # true, false (default)
 lunr:
   search_within_pages: true
-search_provider: google # google
+search_provider: # google
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
