@@ -15,7 +15,7 @@ body {
   font-family: $global-font-family;
   /* 2022.01.19 change font weight & skew */
   line-height: 1.8;
-	font-weight: 400;
+  font-weight: 400;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -196,7 +196,7 @@ td > code {
   background-color: $code-background-color-dark;
   color: $text-color;
   border-radius: 2px;
-  
+
   &:before,
   &:after {
     letter-spacing: -0.2em;
@@ -211,7 +211,6 @@ hr {
   margin: 3em 0em 3em 0em;
   border: 0;
   border-top: 1px solid mix($text-color, $background-color, 10%);
-
 }
 
 /* lists */
@@ -312,7 +311,6 @@ figcaption {
   color: $muted-text-color;
   font-family: $menufont;
   font-size: $type-size-5;
-
 
   a {
     -webkit-transition: $global-transition;
