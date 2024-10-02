@@ -65,10 +65,10 @@ algolia:
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
 google:
-  search_engine_id: # YOUR_SEARCH_ENGINE_ID
-  instant_search: # false (default), true
+  search_engine_id: "708cad3a9ad77495e" # YOUR_SEARCH_ENGINE_ID
+  instant_search: flase # false (default), true
 # SEO Related
-google_site_verification: "oZgP_n5R8uGhl2v63BnyFSSgH0GqF4yQTFSGQWeIvZ8"
+google_site_verification: "fjLN2RWmUyhwuuv89b89tAvkhXO4WXPeEAy6bbxJT8k"
 bing_site_verification:
 yandex_site_verification:
 naver_site_verification:
@@ -102,7 +102,7 @@ author:
   avatar: "/assets/images/profile.jpeg" # 블로그 프로필 사진
   #   bio              : "hi all!"
   # location         : "Seoul, Korea"
-  # email            : "youremailhere@xxxxxx.com"
+  email: "alice0751@naver.com"
 
   links: # 사이트 링크
 #     - label: "Email"
