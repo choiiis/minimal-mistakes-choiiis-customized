@@ -48,7 +48,7 @@ comments:
     theme: "github-dark" # "github-dark"
     issue_term: "pathname"
   staticman:
-    branch: # "master"
+    branch: # "main"
     endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey:
