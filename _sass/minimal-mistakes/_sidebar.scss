@@ -7,6 +7,7 @@
    ========================================================================== */
 
 .sidebar {
+  background-color: blanchedalmond;
   @include clearfix();
 
   @include breakpoint(max-width $large) {
@@ -33,7 +34,6 @@
 
   @include breakpoint($x-large) {
     width: calc(#{$left-sidebar-width} - 1em);
-
   }
 
   > * {
@@ -82,7 +82,7 @@
     top: 0;
     right: 0;
     width: $right-sidebar-width-narrow;
-    margin-right: -1 * $right-sidebar-width-narrow;
+    margin-right: calc(-1 * $right-sidebar-width-narrow + 1em);
     padding-left: 5em;
     z-index: 10;
 
@@ -140,7 +140,6 @@
     }
   }
 }
-
 
 .author__content {
   display: table-cell;
@@ -212,7 +211,6 @@
   }
 
   .author__urls {
-    
     span.label {
       padding-left: 5px;
     }
@@ -228,7 +226,7 @@
 
     &:before {
       @supports (pointer-events: none) {
-        content: '';
+        content: "";
         position: fixed;
         top: 0;
         left: 0;
@@ -249,7 +247,6 @@
     }
   }
 }
-
 
 .author__urls {
   display: none;
@@ -361,4 +358,3 @@
     margin-right: initial;
   }
 }
-
