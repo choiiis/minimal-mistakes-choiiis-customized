@@ -15,7 +15,7 @@
 
 # plum skin 활용하여 색상 설정함. 변경하려면 _sass/minimal-mistakes/skins/_plum.scss 에서 변경하거나
 # 해당 디렉토리 내의 다른 테마로 변경 가능 (minimal-mistakes 기본 제공 테마)
-minimal_mistakes_skin: "air" # "default" "air", "aqua", ...
+minimal_mistakes_skin: "plum" # "default" "air", "aqua", ...
 
 # Site Settings
 locale: "ko-KR" #"en-US"
@@ -45,10 +45,10 @@ comments:
     num_posts: # 5 (default)
     colorscheme: # "light" (default), "dark"
   utterances:
-    theme: "github-dark" # "github-dark"
+    theme: "github-light" # "github-dark"
     issue_term: "pathname"
   staticman:
-    branch: # "main"
+    branch: # "master"
     endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey:
@@ -56,10 +56,8 @@ reCaptcha:
 atom_feed:
   path: # blank (default) uses feed.xml
   hide: # true, false (default)
-search: true # true, false (default)
-search_full_content: true # true, false (default)
-lunr:
-  search_within_pages: true
+search: # true, false (default)
+search_full_content: # true, false (default)
 search_provider: # google
 algolia:
   application_id: # YOUR_APPLICATION_ID
@@ -67,10 +65,10 @@ algolia:
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
 google:
-  search_engine_id: "708cad3a9ad77495e" # YOUR_SEARCH_ENGINE_ID
-  instant_search: false # false (default), true
+  search_engine_id: # YOUR_SEARCH_ENGINE_ID
+  instant_search: # false (default), true
 # SEO Related
-google_site_verification: "fjLN2RWmUyhwuuv89b89tAvkhXO4WXPeEAy6bbxJT8k"
+google_site_verification:
 bing_site_verification:
 yandex_site_verification:
 naver_site_verification:
@@ -95,7 +93,7 @@ analytics:
   provider: "google-gtag"
   # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id: "G-7CVF3XXTWW"
+    tracking_id: "your tracking id here"
     anonymize_ip: # true, false (default)
 
 # Site Author
@@ -104,7 +102,7 @@ author:
   avatar: "/assets/images/profile.jpeg" # 블로그 프로필 사진
   #   bio              : "hi all!"
   # location         : "Seoul, Korea"
-  email: "alice0751@naver.com"
+  # email            : "youremailhere@xxxxxx.com"
 
   links: # 사이트 링크
 #     - label: "Email"
