@@ -1,0 +1,139 @@
+---
+---
+
+/* 한글 폰트: Pretendard (head 의 _includes/metadata-hook.html 에서 로드) */
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}',
+  $font-family-base: ('Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif),
+  $font-family-heading: ('Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif)
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* ================================================================
+   커스텀 테마: Deep Navy + Mint
+   - 사이드바는 라이트/다크 모두 네이비
+   - 라이트 모드 링크는 대비를 위해 진한 틸, 장식 요소는 민트
+   ================================================================ */
+
+@mixin brand-common {
+  --brand-navy: #0f1b2d;
+  --brand-navy-2: #16253d;
+  --brand-mint: #2dd4bf;
+  --brand-mint-soft: rgb(45 212 191 / 14%);
+
+  /* Sidebar (both modes) */
+  --sidebar-bg: var(--brand-navy);
+  --sidebar-border-color: #1d2c45;
+  --site-title-color: #f1f5f9;
+  --site-subtitle-color: #8fa3bf;
+  --sidebar-muted-color: #9fb0c8;
+  --sidebar-active-color: #ffffff;
+  --sidebar-hover-bg: rgb(45 212 191 / 10%);
+  --sidebar-btn-bg: var(--brand-navy-2);
+  --sidebar-btn-color: #9fb0c8;
+  --avatar-border-color: var(--brand-mint);
+}
+
+@mixin brand-light {
+  @include brand-common;
+
+  --main-bg: #fbfcfe;
+  --text-color: #2b3445;
+  --heading-color: var(--brand-navy);
+  --link-color: #0f766e;
+  --link-underline-color: rgb(15 118 110 / 30%);
+  --card-bg: #ffffff;
+  --card-hover-bg: #f1f5f9;
+  --card-shadow: 0 1px 2px rgb(15 27 45 / 6%), 0 0 0 1px rgb(15 27 45 / 7%);
+  --toc-highlight: #0f766e;
+  --btn-share-hover-color: #0f766e;
+  --checkbox-checked-color: #0f766e;
+  --blockquote-border-color: var(--brand-mint);
+  --tag-hover: var(--brand-mint-soft);
+  --inline-code-bg: rgb(15 27 45 / 6%);
+  --highlighter-rouge-color: #134e4a;
+}
+
+@mixin brand-dark {
+  @include brand-common;
+
+  --sidebar-bg: #0a1422;
+  --main-bg: #0d1626;
+  --mask-bg: #0a1422;
+  --main-border-color: #1c2a40;
+  --text-color: #c3cede;
+  --heading-color: #e8eef6;
+  --label-color: #9fb0c8;
+  --link-color: var(--brand-mint);
+  --link-underline-color: rgb(45 212 191 / 30%);
+  --topbar-bg: rgb(13 22 38 / 72%);
+  --card-bg: #111d31;
+  --card-hover-bg: #16253d;
+  --card-shadow: 0 0 0 1px #1c2a40;
+  --toc-highlight: var(--brand-mint);
+  --btn-share-hover-color: var(--brand-mint);
+  --blockquote-border-color: var(--brand-mint);
+  --highlight-bg-color: #0a1322;
+  --tag-hover: var(--brand-mint-soft);
+}
+
+/* 테마 원본과 같은 선택자 구조 (원본보다 뒤에 있으므로 덮어씀) */
+:root[data-mode='light'] { @include brand-light; }
+:root[data-mode='dark'] { @include brand-dark; }
+
+:root:not([data-mode]) {
+  @media (prefers-color-scheme: light) { @include brand-light; }
+  @media (prefers-color-scheme: dark) { @include brand-dark; }
+}
+
+/* ---------- 공통 디테일 ---------- */
+
+code,
+kbd,
+pre,
+.highlight {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.content {
+  word-break: keep-all;
+  line-height: 1.8;
+}
+
+/* 아바타(투명 배경의 검은 선화)가 네이비 위에서 보이도록 밝은 배경 */
+#sidebar #avatar img {
+  background: #f1f5f9;
+}
+
+/* 사이드바: 활성 메뉴에 민트 인디케이터 */
+#sidebar .nav-item.active .nav-link {
+  color: var(--sidebar-active-color);
+  box-shadow: inset 3px 0 0 var(--brand-mint);
+}
+
+#sidebar .nav-link:hover i {
+  color: var(--brand-mint);
+}
+
+/* 홈 글 목록 카드: 살짝 떠오르는 호버 */
+#post-list .card-wrapper {
+  border-radius: 0.75rem;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+#post-list .card-wrapper:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgb(15 27 45 / 10%), 0 0 0 1px var(--brand-mint);
+}
+
+/* 글 제목 아래 민트 바 */
+.content h2 {
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid var(--brand-mint-soft);
+}

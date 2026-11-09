@@ -1,24 +1,13 @@
 ---
-title: "[리액트] React JSX"
-excerpt: "React JSX"
-
-categories:
-  - java
-tags:
-  - [tag1, tag2]
-
-permalink: /java/post-name-here-4/
-
-toc: true
-toc_sticky: true
-
-date: 2025-03-15
-last_modified_at: 2025-03-15
+title: "React JSX"
+description: "React JSX"
+date: 2025-03-15 09:00:00 +0900
+categories: [React]
+tags: [react, jsx, javascript]
+permalink: /react/jsx/  # 기존 URL 유지 (검색 노출·utterances 댓글 연결)
 ---
 
-## 🦥 본문
-
-# React JSX?
+## React JSX?
 
 JSX는 자바스크립트 확장 문법이며 실행되기 전 코드가 번들링 되는 과정에서 바벨을 사용하여 일반 자바스크립트 형태의 코드로 변환됩니다.
 
@@ -31,7 +20,7 @@ function App(){
 			Hello <b>react</b>
 		</div>
 	)
-}"_)_
+}
 ```
 
 위 코드는 바벨에 의해 다음과 같이 변환 됩니다.

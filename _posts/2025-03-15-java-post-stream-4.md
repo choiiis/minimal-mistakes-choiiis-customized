@@ -1,24 +1,12 @@
 ---
-title: "[자바] 자바 Array, Stream"
-excerpt: "본문의 주요 내용을 여기에 입력하세요"
-
-categories:
-  - java
-tags:
-  - [tag1, tag2]
-
-permalink: /java/post-name-here-4/
-
-toc: true
-toc_sticky: true
-
-date: 2025-03-15
-last_modified_at: 2025-03-15
+title: "자바 Array, Stream"
+date: 2025-03-15 09:00:00 +0900
+categories: [Java]
+tags: [java, array, stream]
+permalink: /java/stream/  # 기존 URL 유지 (검색 노출·utterances 댓글 연결)
 ---
 
-## 🦥 본문
-
-# 자바 가변 배열
+## 자바 가변 배열
 
 ----
 자바 배열에는 고정 크기 배열과 가변 배열이 있습니다, 오늘은 가변 배열에 대해 알아보겠습니다.
@@ -63,7 +51,7 @@ public static void createMutableArray() {
 가변 배열의 경우 ArrayList를 사용합니다, ArrayList는 고정 크기 배열과 같이 크기를 정해서 사용할 수 있습니다.
 
 
-# 자바 Stream 
+## 자바 Stream 
 
 자바 스트림은 자바 8 Version 에서 추가된 문법입니다, 스트림을 사용하여 
 배열이나 컬렉션 같은 자료구조 에서 for 또는 foreach, Iterator 구문을 순환하여 요소를 하나씩 접근하여 처리할 수 있습니다.

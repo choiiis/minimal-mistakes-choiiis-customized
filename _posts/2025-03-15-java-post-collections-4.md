@@ -1,24 +1,12 @@
 ---
-title: "[자바] 자바 Collection 과 Generic Type"
-excerpt: "본문의 주요 내용을 여기에 입력하세요"
-
-categories:
-  - java
-tags:
-  - [tag1, tag2]
-
-permalink: /java/post-name-here-4/
-
-toc: true
-toc_sticky: true
-
-date: 2025-03-15
-last_modified_at: 2025-03-15
+title: "자바 Collection 과 Generic Type"
+date: 2025-03-15 09:00:00 +0900
+categories: [Java]
+tags: [java, collection, generic]
+permalink: /java/collections/  # 기존 URL 유지 (검색 노출·utterances 댓글 연결)
 ---
 
-## 🦥 본문
-
-# Java Structure 
+## Java Structure 
 
 자바에서는 List, Set, Map 등 다양한 컬렉션 클래스를 제공한다, 이에 대해서 하나씩 알아보고 실제로 사용해보겠습니다.
 

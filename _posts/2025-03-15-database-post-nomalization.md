@@ -1,24 +1,13 @@
 ---
-title: "[데이터베이스] 데이터베이스 정규화"
-excerpt: "데이터베이스 정규화와 이상현상"
-
-categories:
-  - database
-tags:
-  - [tag1, tag2]
-
-permalink: /database/post-name-here-2/
-
-toc: true
-toc_sticky: true
-
-date: 2025-03-15
-last_modified_at: 2025-03-15
+title: "데이터베이스 정규화"
+description: "데이터베이스 정규화와 이상현상"
+date: 2025-03-15 09:00:00 +0900
+categories: [Database]
+tags: [database, normalization, anomaly]
+permalink: /database/post-name-here-2/  # 기존 URL 유지 (검색 노출·utterances 댓글 연결)
 ---
 
-## 🦥 본문
-
-# 데이터베이스 정규화
+## 데이터베이스 정규화
 
 정규화란 릴레이션에서 이상현상을 제거하는 것이다, 즉 쉽게 말하면 중복된 데이터를 제거함으로써
 무결성을 유지할 수 있고 DB의 용량을 줄일수 있다

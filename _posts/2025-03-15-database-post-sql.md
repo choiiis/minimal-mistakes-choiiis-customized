@@ -1,24 +1,13 @@
 ---
-title: "[데이터베이스] SQL 정리 및 트랜잭션"
-excerpt: "DDL, DML, DCL 및 Transaction"
-
-categories:
-  - database
-tags:
-  - [tag1, tag2]
-
-permalink: /database/post-name-here/
-
-toc: true
-toc_sticky: true
-
-date: 2025-03-15
-last_modified_at: 2025-03-15
+title: "SQL 정리 및 트랜잭션"
+description: "DDL, DML, DCL 및 Transaction"
+date: 2025-03-15 09:00:00 +0900
+categories: [Database]
+tags: [sql, ddl, dml, transaction]
+permalink: /database/post-name-here/  # 기존 URL 유지 (검색 노출·utterances 댓글 연결)
 ---
 
-## 🦥 본문
-
-# SQL 문법 정리 및 트랜잭션
+## SQL 문법 정리 및 트랜잭션
 
 ----
 

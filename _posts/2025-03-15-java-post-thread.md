@@ -1,24 +1,13 @@
 ---
-title: "[자바] 자바 Thread"
-excerpt: "Thread 의 동작과 제어"
-
-categories:
-  - java
-tags:
-  - [tag1, tag2]
-
-permalink: /java/post-name-here-4/
-
-toc: true
-toc_sticky: true
-
-date: 2025-03-15
-last_modified_at: 2025-03-15
+title: "자바 Thread"
+description: "Thread 의 동작과 제어"
+date: 2025-03-15 09:00:00 +0900
+categories: [Java]
+tags: [java, thread, concurrency]
+permalink: /java/thread/  # 기존 URL 유지 (검색 노출·utterances 댓글 연결)
 ---
 
-## 🦥 본문
-
-# Thread 의 동작과 제어
+## Thread 의 동작과 제어
 
 ### Process 와 Thread
 * process 란 ?

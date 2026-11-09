@@ -1,24 +1,13 @@
 ---
-title: "[스프링] Spring Security"
-excerpt: "Spring Security를 이용한 회원 가입 및 인증"
-
-categories:
-  - spring
-tags:
-  - [tag1, tag2]
-
-permalink: /spring/post-name-here-4/
-
-toc: true
-toc_sticky: true
-
-date: 2025-03-15
-last_modified_at: 2025-03-15
+title: "Spring Security"
+description: "Spring Security를 이용한 회원 가입 및 인증"
+date: 2025-03-15 09:00:00 +0900
+categories: [Spring]
+tags: [spring, spring-security, authentication]
+permalink: /spring/post-name-here-4/  # 기존 URL 유지 (검색 노출·utterances 댓글 연결)
 ---
 
-## 🦥 본문
-
-# Spring Security를 이용한 회원 가입 및 인증
+## Spring Security를 이용한 회원 가입 및 인증
 
 ### Spring Security 동작과정
 * Spring Security는 Filter 기반으로 동작한다, 따라서 Spring MVC와 별도로 관리 및 동작한다
